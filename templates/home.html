@@ -1,0 +1,851 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NS Web Development</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+
+        <!-- LOGO -->
+
+        <a href="#home" class="logo-link">
+
+            <img
+                src="{% static 'images/logo.png' %}"
+                alt="NS Logo"
+                class="logo"
+            >
+
+        </a>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="nav-menu">
+
+            <a href="#home">Home</a>
+
+            <a href="#curriculum">Curriculum</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main>
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+<section id="home" class="hero">
+
+
+    <!-- ONLY ONE HERO IMAGE -->
+
+    <div class="hero-background"></div>
+
+
+    <!-- DARK OVERLAY -->
+
+    <div class="hero-overlay"></div>
+
+
+    <!-- HERO CONTENT -->
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+
+            <div class="hero-tag">
+
+                LEARN
+                <span>•</span>
+                BUILD
+                <span>•</span>
+                GROW
+
+            </div>
+
+
+            <h1>
+
+                Launch Your Career
+                <br>
+
+                as a
+                <span>Web Developer</span>
+
+            </h1>
+
+
+            <p>
+
+                Master modern web technologies, build
+                real-world projects, and become
+                job-ready with practical hands-on learning.
+
+            </p>
+
+
+            <!-- BUTTONS -->
+
+            <div class="hero-buttons">
+
+
+                <a href="#apply"
+                   class="btn btn-primary">
+
+                    Apply Now
+
+                    <span>→</span>
+
+                </a>
+
+
+                <a href="#curriculum"
+                   class="btn btn-secondary">
+
+                    View Curriculum
+
+                    <span>↗</span>
+
+                </a>
+
+
+            </div>
+
+
+            <!-- FEATURES -->
+
+            <div class="hero-features">
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div>
+
+                        <strong>Django</strong>
+
+                        <small>
+                            Backend Mastery
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        ◇
+                    </div>
+
+                    <div>
+
+                        <strong>Build</strong>
+
+                        <small>
+                            Real Projects
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        ◆
+                    </div>
+
+                    <div>
+
+                        <strong>Career</strong>
+
+                        <small>
+                            Career Support
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CURRICULUM
+===================================================== -->
+
+<section id="curriculum"
+         class="curriculum-section">
+
+
+    <div class="section-heading">
+
+
+        <span>LEARNING PATH</span>
+
+
+        <h2>
+
+            Become a
+            <strong>Job-Ready Web Developer</strong>
+
+        </h2>
+
+
+        <p>
+
+            Learn the skills and technologies required
+            to build modern, professional web applications.
+
+        </p>
+
+
+    </div>
+
+
+
+    <div class="curriculum-grid">
+
+
+        <!-- 01 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                01
+            </div>
+
+            <h3>
+                Python Fundamentals
+            </h3>
+
+            <p>
+                Learn Python programming from the basics
+                to object-oriented programming.
+            </p>
+
+            <ul>
+
+                <li>Variables & Data Types</li>
+
+                <li>Conditions & Loops</li>
+
+                <li>Functions</li>
+
+                <li>Lists & Dictionaries</li>
+
+                <li>Object-Oriented Programming</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 02 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                02
+            </div>
+
+            <h3>
+                HTML & CSS
+            </h3>
+
+            <p>
+                Learn how to create beautiful,
+                responsive websites.
+            </p>
+
+            <ul>
+
+                <li>HTML5</li>
+
+                <li>Forms</li>
+
+                <li>CSS</li>
+
+                <li>Flexbox & Grid</li>
+
+                <li>Responsive Design</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 03 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                03
+            </div>
+
+            <h3>
+                JavaScript
+            </h3>
+
+            <p>
+                Add interactivity and dynamic
+                functionality to your websites.
+            </p>
+
+            <ul>
+
+                <li>JavaScript Basics</li>
+
+                <li>DOM Manipulation</li>
+
+                <li>Events</li>
+
+                <li>Arrays & Objects</li>
+
+                <li>API Integration</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 04 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                04
+            </div>
+
+            <h3>
+                Django Development
+            </h3>
+
+            <p>
+                Build powerful backend applications
+                using Python and Django.
+            </p>
+
+            <ul>
+
+                <li>Django Projects</li>
+
+                <li>URLs & Views</li>
+
+                <li>Templates</li>
+
+                <li>Models & ORM</li>
+
+                <li>Authentication</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 05 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                05
+            </div>
+
+            <h3>
+                SQL & Databases
+            </h3>
+
+            <p>
+                Learn how real applications store
+                and manage data.
+            </p>
+
+            <ul>
+
+                <li>SQL Basics</li>
+
+                <li>MySQL</li>
+
+                <li>CRUD Operations</li>
+
+                <li>Database Relationships</li>
+
+                <li>Django ORM</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 06 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                06
+            </div>
+
+            <h3>
+                Git & GitHub
+            </h3>
+
+            <p>
+                Learn professional development
+                and collaboration workflows.
+            </p>
+
+            <ul>
+
+                <li>Git Basics</li>
+
+                <li>Branches</li>
+
+                <li>Commits</li>
+
+                <li>Pull Requests</li>
+
+                <li>Open Source</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 07 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                07
+            </div>
+
+            <h3>
+                Real-World Projects
+            </h3>
+
+            <p>
+                Build projects that demonstrate
+                your development skills.
+            </p>
+
+            <ul>
+
+                <li>Blog Application</li>
+
+                <li>E-Commerce Website</li>
+
+                <li>Authentication System</li>
+
+                <li>REST API</li>
+
+                <li>Portfolio Website</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- 08 -->
+
+        <div class="curriculum-card">
+
+            <div class="card-number">
+                08
+            </div>
+
+            <h3>
+                Deployment & Career
+            </h3>
+
+            <p>
+                Learn how to deploy projects and
+                prepare for internships and jobs.
+            </p>
+
+            <ul>
+
+                <li>Deployment</li>
+
+                <li>Environment Variables</li>
+
+                <li>GitHub Portfolio</li>
+
+                <li>Resume</li>
+
+                <li>Interview Preparation</li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     APPLY SECTION
+===================================================== -->
+
+<section id="apply"
+         class="apply-section">
+
+
+    <div class="apply-container">
+
+
+        <span>
+            START YOUR JOURNEY
+        </span>
+
+
+        <h2>
+
+            Ready to Start
+            <br>
+            Your Career?
+
+        </h2>
+
+
+        <p>
+
+            Learn the skills, build real projects,
+            and take the next step toward your
+            web development career.
+
+        </p>
+
+
+        <a href="#contact"
+           class="btn btn-primary">
+
+            Apply Now
+
+            <span>→</span>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+
+<section id="about"
+         class="about-section">
+
+
+    <div class="about-container">
+
+
+        <div class="about-heading">
+
+            <span>
+                ABOUT US
+            </span>
+
+            <h2>
+
+                Learn.
+                <strong>Build.</strong>
+                Grow.
+
+            </h2>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p>
+
+                Our goal is to help aspiring developers
+                learn modern web development through
+                practical and project-based learning.
+
+            </p>
+
+
+            <p>
+
+                Instead of focusing only on theory,
+                you will work with technologies such as
+                Python, Django, HTML, CSS, JavaScript,
+                SQL and Git.
+
+            </p>
+
+
+            <p>
+
+                By the end of the learning journey,
+                you will have real projects that you
+                can showcase in your portfolio.
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+
+<section id="contact"
+         class="contact-section">
+
+
+    <div class="contact-container">
+
+
+        <!-- LEFT SIDE -->
+
+        <div class="contact-info">
+
+
+            <span>
+                GET IN TOUCH
+            </span>
+
+
+            <h2>
+
+                Let's Build
+                <strong>Something</strong>
+                Together.
+
+            </h2>
+
+
+            <p>
+
+                Have a question about the course,
+                curriculum or application?
+
+                Send us a message and we'll get
+                back to you.
+
+            </p>
+
+
+            <div class="contact-detail">
+
+                <div class="contact-icon">
+                    @
+                </div>
+
+                <div>
+
+                    <small>
+                        EMAIL
+                    </small>
+
+                    <p>
+                        contact@example.com
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- RIGHT SIDE FORM -->
+
+        <div class="contact-form-container">
+
+
+            <form
+                action="#"
+                method="POST"
+                class="contact-form"
+            >
+
+                {% csrf_token %}
+
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Gmail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your Gmail address"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+
+                    Send Message
+
+                    <span>→</span>
+
+                </button>
+
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <p>
+        © 2026 NS Web Development.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
